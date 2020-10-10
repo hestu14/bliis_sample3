@@ -2,6 +2,11 @@
     padding-left: 2vw;
 }
 
+.kepada {
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -64,4 +69,49 @@
     background-color: burlywood;
 }
 
+.image-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.image-border img {
+    height: 20px;
+    width: auto;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.quote-text {
+    font-size: 24px;
+}
+
+.quote-by {
+    font-size: 18px;
+}
+
+
+.foto-pasangan {
+    font-family: 'Caveat', cursive;
+}
+
+.foto-pria, .foto-wanita, .pemisah-foto {
+    text-align: center;
+}
+
+.foto-pria img, .foto-wanita img {
+    height: 200px;
+}
+
+.akad-box, .resepsi-box {
+    background-color: rgb(222, 184, 135, 0.7);
+    height: 100px;
+}
+
+.maps-box iframe {
+    width: 90%;
+    height: 60vh;
+}
