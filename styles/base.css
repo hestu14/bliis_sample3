@@ -1,3 +1,7 @@
+nav {
+    min-height: 5vh;
+}
+
 .navbar-brand {
     padding-left: 2vw;
 }
@@ -10,6 +14,7 @@
 .header {
     display: flex;
     flex-direction: row;
+    min-height: 75vh;
 }
 
 .header-left {
@@ -90,9 +95,8 @@
 }
 
 .quote-by {
-    font-size: 18px;
+    font-size: 24px;
 }
-
 
 .foto-pasangan {
     font-family: 'Caveat', cursive;
@@ -106,12 +110,21 @@
     height: 200px;
 }
 
-.akad-box, .resepsi-box {
-    background-color: rgb(222, 184, 135, 0.7);
-    height: 100px;
+.akad-resepsi-header {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+}
+
+.akad-resepsi-deskripsi {
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+
+.akad-resepsi-text {
+    text-align: center;
 }
 
 .maps-box iframe {
-    width: 90%;
+    width: 80%;
     height: 60vh;
 }
