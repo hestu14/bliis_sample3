@@ -1,5 +1,5 @@
 nav {
-    min-height: 5vh;
+    min-height: 10vh;
 }
 
 .navbar-brand {
@@ -8,7 +8,7 @@ nav {
 
 .kepada {
     font-family: 'Caveat', cursive;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .header {
@@ -38,13 +38,15 @@ nav {
 .header-right-title {
     height: 75%;
     /* background-color: brown; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
     font-family: 'Sacramento', cursive;
     font-style: italic;
     font-size: 40px;
+}
+
+.header-right-date {
+    font-size: 32px;
 }
 
 .header-right-button {
@@ -110,7 +112,7 @@ nav {
     height: 200px;
 }
 
-.akad-resepsi-header {
+/* .akad-resepsi-header {
     font-family: 'Caveat', cursive;
     font-size: 24px;
 }
@@ -122,9 +124,63 @@ nav {
 
 .akad-resepsi-text {
     text-align: center;
+} */
+
+.box-akad-resepsi {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.box-akad, .box-countdown, .box-resepsi {
+    height: 400px;
+    /* background-color: gray; */
+    padding: 2rem;
+    margin: 1rem;
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-title {
+    font-size: 24px;
+}
+
+.box-akad-icon img, .box-resepsi-icon img {
+    height: 100px;
+    width: auto;
 }
 
 .maps-box iframe {
     width: 80%;
     height: 60vh;
+}
+
+.video-box iframe {
+    width: 80%;
+    height: 500px;
+}
+
+.footer {
+    min-height: 50px;
+    text-align: center;
+    color:burlywood;
+}
+
+#bliis-logo {
+    font-size: 20px;
+}
+
+#bliis-logo img {
+    height: 20px;
+    width: 30px;
+    margin-bottom: 8px;
+}
+
+#freepik {
+    font-size: 12px;
+}
+
+#freepik a {
+    text-decoration: none;
+    color:burlywood;
 }
