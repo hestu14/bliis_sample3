@@ -141,23 +141,75 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.box-countdown {
+    font-size: 20px;
+}
+
+
 .box-title {
     font-size: 24px;
 }
 
-.box-akad-icon img, .box-resepsi-icon img {
+.box-akad-icon img, .box-resepsi-icon img, .box-countdown-icon img {
     height: 100px;
     width: auto;
 }
+
+.box-countdown-icon img {
+    margin-top: 7px;
+}
+
+.box-akad-tanggal, .box-akad-waktu, .box-akad-tempat, .box-resepsi-tanggal, .box-resepsi-waktu, .box-resepsi-tempat {
+    display: flex;
+    flex-direction: row;
+}
+
+#box-icon {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-text {
+    width: 75%;
+    text-align: left;
+}
+
+.box-countdown-text {
+    display: flex;
+    flex-direction: row;
+    flex-flow:row wrap;
+}
+
+#coundown-days, #countdown-hours, #countdown-minutes, #countdown-seconds {
+    width: 50%;
+}
+
 
 .maps-box iframe {
     width: 80%;
     height: 60vh;
 }
 
+.video-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
 .video-box iframe {
-    width: 80%;
-    height: 500px;
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    bottom: 0;
+    right: 0;
+    width: 78%;
+    height: 78%;
+    border: none;
 }
 
 .footer {
@@ -183,4 +235,55 @@ nav {
 #freepik a {
     text-decoration: none;
     color:burlywood;
+}
+
+@media (max-width: 992px) { 
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        min-height: 75vh;
+    }
+
+    .header-left {
+        width: 100%;
+        /* height: 500px; */
+        /* background-color: blue; */
+    }
+    
+    .header-left img {
+        max-height: auto;
+        width: 100%;
+    }
+    
+    .header-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        /* height: 500px; */
+        /* background-color: brown; */
+    }
+
+    .header-right-button {
+        height: 25%;
+        /* background-color: cadetblue; */
+        display: flex;
+        position: relative;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        margin-top: -45px;
+    }
+
+    .header-right-couple {
+        font-size: 32px;
+        margin-top: 18px;
+    }
+
+    .header-right-date {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+
 }
