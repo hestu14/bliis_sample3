@@ -14,11 +14,11 @@ nav {
 .header {
     display: flex;
     flex-direction: row;
-    min-height: 75vh;
+    min-height: 70vh;
 }
 
 .header-left {
-    width: 70%;
+    width: 75%;
     /* height: 500px; */
     /* background-color: blue; */
 }
@@ -28,7 +28,7 @@ nav {
 }
 
 .header-right {
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     /* height: 500px; */
@@ -36,7 +36,7 @@ nav {
 }
 
 .header-right-title {
-    height: 75%;
+    height: 70%;
     /* background-color: brown; */
     flex-direction: column;
     text-align: center;
@@ -50,7 +50,7 @@ nav {
 }
 
 .header-right-button {
-    height: 25%;
+    height: 30%;
     /* background-color: cadetblue; */
     display: flex;
     position: relative;
@@ -85,6 +85,10 @@ nav {
 .image-border img {
     height: 20px;
     width: auto;
+}
+
+.first-border {
+    min-height: 12vh;
 }
 
 .quote {
@@ -197,8 +201,8 @@ nav {
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%;
-    margin-top: -30px;
-    margin-bottom: -30px;
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
 
 .video-box iframe {
@@ -215,7 +219,7 @@ nav {
 .footer {
     min-height: 50px;
     text-align: center;
-    color:burlywood;
+    color: inherit;
 }
 
 #bliis-logo {
@@ -234,7 +238,7 @@ nav {
 
 #freepik a {
     text-decoration: none;
-    color:burlywood;
+    color: inherit;
 }
 
 @media (max-width: 992px) { 
@@ -285,5 +289,40 @@ nav {
         margin-top: 14px;
     }
 
+    .image-border img {
+        height: auto;
+        width: 80%;
+    }
+
+    .foto-pria {
+        margin-bottom: 1rem;
+    }
+
+    .foto-wanita {
+        margin-top: 1rem;
+    }
+
+    .box-akad, .box-countdown, .box-resepsi {
+        width: 75%;
+    }
+
+    .maps-box iframe {
+        width: 96%;
+        height: 30vh;
+    }
+
+    .video-box iframe {
+        top: 5%;
+        left: 5%;
+        bottom: 0;
+        right: 0;
+        width: 90%;
+        height: 90%;
+    }
+
+    .video-box {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 
 }

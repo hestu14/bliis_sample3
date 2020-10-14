@@ -18,7 +18,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light container">
-        <div class="kepada">Kepada : Anda (di tempat)</div>
+        <div class="kepada">Kepada : <span id="tujuan-nama">Anda</span> <span id="tujuan-alamat">(di tempat)</span></div>
     </nav>
 
     <div class="header container">
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <div class="container image-border mt-2" style="min-height: 13vh;">
+        <div class="container image-border mt-2 first-border">
             <img src="img/image-border.png" alt="---------------" srcset="">
         </div>
 
@@ -188,6 +188,7 @@
         </footer>
 
         <script src="script/countdown.js"></script>
+        <script src="script/query_params.js"></script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
