@@ -143,6 +143,7 @@ nav {
     border: rgba(0, 0, 0, 0.8) 3px solid;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
 }
 
 .box-countdown {
@@ -246,7 +247,7 @@ nav {
     .header {
         display: flex;
         flex-direction: column;
-        min-height: 65vh;
+        min-height: 70vh;
     }
 
     .header-left {
@@ -287,6 +288,10 @@ nav {
     .header-right-date {
         font-size: 18px;
         margin-top: 14px;
+    }
+    
+    #prev-control, #next-control {
+        opacity: 0.4
     }
 
     .image-border img {
