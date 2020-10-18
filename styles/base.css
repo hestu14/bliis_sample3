@@ -108,6 +108,12 @@ nav {
     font-size: 24px;
 }
 
+.undangan-text {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
 .foto-pasangan {
     font-family: 'Caveat', cursive;
 }
@@ -316,7 +322,7 @@ nav {
     }
 
     .box-akad, .box-countdown, .box-resepsi {
-        width: 75%;
+        width: 70%;
     }
 
     .maps-box iframe {
